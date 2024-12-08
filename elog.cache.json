@@ -193,12 +193,12 @@
     {
       "id": 54107162,
       "doc_id": "tmft6b",
-      "updated": 1725535942000,
+      "updated": 1733644966000,
       "properties": {
         "title": "常用命令",
         "urlname": "tmft6b",
         "date": "2021-09-25 17:28:25",
-        "updated": "2024-09-05 19:32:22",
+        "updated": "2024-12-08 16:02:46",
         "cover": "https://cdn.nlark.com/yuque/0/2021/png/2335953/1634128233023-51bfca5a-cf14-42b2-a17f-6c88ad930fe0.png",
         "description": "系统查看版本（详细）：cat /proc/versionLinux version 4.15.0-154-generic (buildd@lcy01-amd64-011) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #161-Ubuntu..."
       },
@@ -460,15 +460,193 @@
       "realName": "函数",
       "relativePath": "/MySQL/函数.md",
       "docPath": "docs/docs/MySQL"
+    },
+    {
+      "id": 197028599,
+      "doc_id": "xhi1xrkb27yll12f",
+      "updated": 1733193609000,
+      "properties": {
+        "title": "数据平台搭建",
+        "urlname": "xhi1xrkb27yll12f",
+        "date": "2024-12-03 10:40:04",
+        "updated": "2024-12-03 10:40:09"
+      },
+      "catalog": [],
+      "realName": "数据平台搭建",
+      "relativePath": "/数据平台搭建.md",
+      "docPath": "docs/docs"
+    },
+    {
+      "id": 197028629,
+      "doc_id": "bpsgxm5rz7ghnktn",
+      "updated": 1733208958000,
+      "properties": {
+        "title": "数据建模",
+        "urlname": "bpsgxm5rz7ghnktn",
+        "date": "2024-12-03 10:40:14",
+        "updated": "2024-12-03 14:55:58",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/2335953/1733193694793-cba71ffd-4945-4aed-abc5-6b3d6d84359c.png",
+        "description": "数据域"
+      },
+      "catalog": [
+        {
+          "title": "数据平台搭建",
+          "doc_id": "bpsgxm5rz7ghnktn"
+        }
+      ],
+      "realName": "数据建模",
+      "relativePath": "/数据平台搭建/数据建模.md",
+      "docPath": "docs/docs/数据平台搭建"
+    },
+    {
+      "id": 192572844,
+      "doc_id": "nambbfbqs64nepbk",
+      "updated": 1730386472000,
+      "properties": {
+        "title": "基础语法",
+        "urlname": "nambbfbqs64nepbk",
+        "date": "2024-10-31 22:54:17",
+        "updated": "2024-10-31 22:54:32"
+      },
+      "catalog": [
+        {
+          "title": "大数据学习",
+          "doc_id": "nambbfbqs64nepbk"
+        },
+        {
+          "title": "Hive",
+          "doc_id": "nambbfbqs64nepbk"
+        }
+      ],
+      "realName": "基础语法",
+      "relativePath": "/大数据学习/Hive/基础语法.md",
+      "docPath": "docs/docs/大数据学习/Hive"
+    },
+    {
+      "id": 196250125,
+      "doc_id": "atcexoses0n635ni",
+      "updated": 1733127061000,
+      "properties": {
+        "title": "环境搭建",
+        "urlname": "atcexoses0n635ni",
+        "date": "2024-11-27 11:42:15",
+        "updated": "2024-12-02 16:11:01",
+        "description": "hadoop修改全局环境变量hadoop-env.shcore-site.xmlyarn-site.xmlhdfs-site.xmlmapred-site.xml删除namenode、datanode、tmp文件，重新格式化hdfs在hdfs里面创建一个spark的日志路径hive替换hado..."
+      },
+      "catalog": [
+        {
+          "title": "大数据学习",
+          "doc_id": "atcexoses0n635ni"
+        }
+      ],
+      "realName": "环境搭建",
+      "relativePath": "/大数据学习/环境搭建.md",
+      "docPath": "docs/docs/大数据学习"
+    },
+    {
+      "id": 192573241,
+      "doc_id": "pbf5b0x2heo4b22e",
+      "updated": 1730386558000,
+      "properties": {
+        "title": "连接",
+        "urlname": "pbf5b0x2heo4b22e",
+        "date": "2024-10-31 22:55:48",
+        "updated": "2024-10-31 22:55:58",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/2335953/1730386553535-0a5a91ab-1169-4e00-813f-439f2dd837b4.png"
+      },
+      "catalog": [
+        {
+          "title": "大数据学习",
+          "doc_id": "pbf5b0x2heo4b22e"
+        },
+        {
+          "title": "Hive",
+          "doc_id": "pbf5b0x2heo4b22e"
+        }
+      ],
+      "realName": "连接",
+      "relativePath": "/大数据学习/Hive/连接.md",
+      "docPath": "docs/docs/大数据学习/Hive"
+    },
+    {
+      "id": 192572602,
+      "doc_id": "utgclhggg6i92dav",
+      "updated": 1730386454000,
+      "properties": {
+        "title": "Hive",
+        "urlname": "utgclhggg6i92dav",
+        "date": "2024-10-31 22:54:07",
+        "updated": "2024-10-31 22:54:14"
+      },
+      "catalog": [
+        {
+          "title": "大数据学习",
+          "doc_id": "utgclhggg6i92dav"
+        }
+      ],
+      "realName": "Hive",
+      "relativePath": "/大数据学习/Hive.md",
+      "docPath": "docs/docs/大数据学习"
+    },
+    {
+      "id": 189753836,
+      "doc_id": "dewvcdc3ckdsmtr3",
+      "updated": 1728615386000,
+      "properties": {
+        "title": "联洲工作计划",
+        "urlname": "dewvcdc3ckdsmtr3",
+        "date": "2024-10-11 10:14:05",
+        "updated": "2024-10-11 10:56:26",
+        "description": "2024-M10第一周（10.8-10.11） 本周安排准备答辩ppt 完善其他OLAP引擎调研、Airflow和dolphinscheduler的对比 完成数据测试和性能测试 优化代码逻辑 画图现在的月报计算流程 下周计划 完善答辩ppt 与导师进行预答辩演讲 进行成本估算"
+      },
+      "catalog": [
+        {
+          "title": "文档",
+          "doc_id": "dewvcdc3ckdsmtr3"
+        }
+      ],
+      "realName": "联洲工作计划",
+      "relativePath": "/文档/联洲工作计划.md",
+      "docPath": "docs/docs/文档"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
+      "title": "数据平台搭建",
+      "uuid": "j_88hTvhdLCJKHxq",
+      "url": "xhi1xrkb27yll12f",
+      "prev_uuid": "",
+      "sibling_uuid": "RxbKPuLvXwix3Cdl",
+      "child_uuid": "f3fvA8dC7WHja-gD",
+      "parent_uuid": "",
+      "doc_id": 197028599,
+      "level": 0,
+      "id": 197028599,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "数据建模",
+      "uuid": "f3fvA8dC7WHja-gD",
+      "url": "bpsgxm5rz7ghnktn",
+      "prev_uuid": "j_88hTvhdLCJKHxq",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "j_88hTvhdLCJKHxq",
+      "doc_id": 197028629,
+      "level": 1,
+      "id": 197028629,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "MySQL",
       "uuid": "RxbKPuLvXwix3Cdl",
       "url": "gph9ectq5dfk1nwm",
-      "prev_uuid": "",
+      "prev_uuid": "j_88hTvhdLCJKHxq",
       "sibling_uuid": "X52iPYRX02O8gXT5",
       "child_uuid": "S3FE3yIrimlfGzex",
       "parent_uuid": "",
@@ -590,7 +768,7 @@
       "url": "nqmh1oc56skmphz4",
       "prev_uuid": "X52iPYRX02O8gXT5",
       "sibling_uuid": "EX9yYti9IEO_uPYq",
-      "child_uuid": "vybl0kqoMPyu9vl1",
+      "child_uuid": "SnRcE2-GkxXobebS",
       "parent_uuid": "",
       "doc_id": 176198065,
       "level": 0,
@@ -600,10 +778,70 @@
     },
     {
       "type": "DOC",
+      "title": "环境搭建",
+      "uuid": "SnRcE2-GkxXobebS",
+      "url": "atcexoses0n635ni",
+      "prev_uuid": "IrpnG32GwUNyMBO4",
+      "sibling_uuid": "gl8H6re-at_6_8Ux",
+      "child_uuid": "",
+      "parent_uuid": "IrpnG32GwUNyMBO4",
+      "doc_id": 196250125,
+      "level": 1,
+      "id": 196250125,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Hive",
+      "uuid": "gl8H6re-at_6_8Ux",
+      "url": "utgclhggg6i92dav",
+      "prev_uuid": "SnRcE2-GkxXobebS",
+      "sibling_uuid": "vybl0kqoMPyu9vl1",
+      "child_uuid": "F3A8tHBSViqb43sD",
+      "parent_uuid": "IrpnG32GwUNyMBO4",
+      "doc_id": 192572602,
+      "level": 1,
+      "id": 192572602,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "连接",
+      "uuid": "F3A8tHBSViqb43sD",
+      "url": "pbf5b0x2heo4b22e",
+      "prev_uuid": "gl8H6re-at_6_8Ux",
+      "sibling_uuid": "YtLoKldiEjiSwa-H",
+      "child_uuid": "",
+      "parent_uuid": "gl8H6re-at_6_8Ux",
+      "doc_id": 192573241,
+      "level": 2,
+      "id": 192573241,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "基础语法",
+      "uuid": "YtLoKldiEjiSwa-H",
+      "url": "nambbfbqs64nepbk",
+      "prev_uuid": "F3A8tHBSViqb43sD",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "gl8H6re-at_6_8Ux",
+      "doc_id": 192572844,
+      "level": 2,
+      "id": 192572844,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
       "title": "StarRocks",
       "uuid": "vybl0kqoMPyu9vl1",
       "url": "kk6w5rn88m2x4zgc",
-      "prev_uuid": "IrpnG32GwUNyMBO4",
+      "prev_uuid": "gl8H6re-at_6_8Ux",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "IrpnG32GwUNyMBO4",
@@ -785,7 +1023,7 @@
       "url": "vg8d7ng5b9air7kt",
       "prev_uuid": "EX9yYti9IEO_uPYq",
       "sibling_uuid": "",
-      "child_uuid": "rpXrloxo6dt35AYl",
+      "child_uuid": "xo1G-Ytjf8pUhsjT",
       "parent_uuid": "",
       "doc_id": 185354905,
       "level": 0,
@@ -795,10 +1033,25 @@
     },
     {
       "type": "DOC",
+      "title": "联洲工作计划",
+      "uuid": "xo1G-Ytjf8pUhsjT",
+      "url": "dewvcdc3ckdsmtr3",
+      "prev_uuid": "ZcXgSKIwK9vYkv0m",
+      "sibling_uuid": "rpXrloxo6dt35AYl",
+      "child_uuid": "",
+      "parent_uuid": "ZcXgSKIwK9vYkv0m",
+      "doc_id": 189753836,
+      "level": 1,
+      "id": 189753836,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "转正答辩",
       "uuid": "rpXrloxo6dt35AYl",
       "url": "kvyqr4gui8ni9z8p",
-      "prev_uuid": "ZcXgSKIwK9vYkv0m",
+      "prev_uuid": "xo1G-Ytjf8pUhsjT",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "ZcXgSKIwK9vYkv0m",
