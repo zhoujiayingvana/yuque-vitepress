@@ -215,12 +215,12 @@
     {
       "id": 61906869,
       "doc_id": "atxlru",
-      "updated": 1725535978000,
+      "updated": 1733646348000,
       "properties": {
         "title": "文件传输",
         "urlname": "atxlru",
         "date": "2021-12-05 13:55:47",
-        "updated": "2024-09-05 19:32:58",
+        "updated": "2024-12-08 16:25:48",
         "description": "https://www.cnblogs.com/zzjdbk/p/14078298.htmlhttps://blog.csdn.net/weixin_39372979/article/details/81178616服务器之间文件传输。在原始服务器上输入指令：传输文件scp -P 22 本机文..."
       },
       "catalog": [
@@ -420,12 +420,12 @@
     {
       "id": 186851901,
       "doc_id": "zu7ul3qe47dnmifp",
-      "updated": 1726762045000,
+      "updated": 1733669178000,
       "properties": {
         "title": "查询语法",
         "urlname": "zu7ul3qe47dnmifp",
         "date": "2024-09-17 20:41:01",
-        "updated": "2024-09-20 00:07:25",
+        "updated": "2024-12-08 22:46:18",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/2335953/1721828523839-36209985-35bd-430d-91f4-8475bf3f3e77.png",
         "description": "基础语法总结非空 WHERE 字段名 is NOT NULL 或 WHERE NOT 字段名查询名字长度为2的员工：SELECT * FROM Employee WHERE name like '_ _';执行顺序：from, where, group by, having, select, ..."
       },
@@ -525,12 +525,12 @@
     {
       "id": 196250125,
       "doc_id": "atcexoses0n635ni",
-      "updated": 1733127061000,
+      "updated": 1734053389000,
       "properties": {
         "title": "环境搭建",
         "urlname": "atcexoses0n635ni",
         "date": "2024-11-27 11:42:15",
-        "updated": "2024-12-02 16:11:01",
+        "updated": "2024-12-13 09:29:49",
         "description": "hadoop修改全局环境变量hadoop-env.shcore-site.xmlyarn-site.xmlhdfs-site.xmlmapred-site.xml删除namenode、datanode、tmp文件，重新格式化hdfs在hdfs里面创建一个spark的日志路径hive替换hado..."
       },
       "catalog": [
@@ -608,6 +608,52 @@
       "realName": "联洲工作计划",
       "relativePath": "/文档/联洲工作计划.md",
       "docPath": "docs/docs/文档"
+    },
+    {
+      "id": 198799752,
+      "doc_id": "uwsmv6a4l1aex84q",
+      "updated": 1735108156000,
+      "properties": {
+        "title": "常见问题",
+        "urlname": "uwsmv6a4l1aex84q",
+        "date": "2024-12-16 11:34:35",
+        "updated": "2024-12-25 14:29:16",
+        "description": "hive外表location和分区location不一致创建一个hive外表时，如果表名和s3上的文件名不一样，在创建分区时，要手动指定分区路径。否则，在创建分区或者插入某个新分区的数据时，hive会自动分配s3路径，分区路径会自动指向原表名的s3表名的路径。create external t..."
+      },
+      "catalog": [
+        {
+          "title": "大数据学习",
+          "doc_id": "uwsmv6a4l1aex84q"
+        },
+        {
+          "title": "Hive",
+          "doc_id": "uwsmv6a4l1aex84q"
+        }
+      ],
+      "realName": "常见问题",
+      "relativePath": "/大数据学习/Hive/常见问题.md",
+      "docPath": "docs/docs/大数据学习/Hive"
+    },
+    {
+      "id": 197768782,
+      "doc_id": "xfy5lhrvmqd4d0zr",
+      "updated": 1733665895000,
+      "properties": {
+        "title": "Spark",
+        "urlname": "xfy5lhrvmqd4d0zr",
+        "date": "2024-12-08 16:55:54",
+        "updated": "2024-12-08 21:51:35",
+        "description": "文件读取from pyspark.sql import SparkSession  # 初始化SparkSession spark = SparkSession.builder \\ .appName(\"ReadTextFromS3\") \\ .config(\"spark.hadoop.fs.s3..."
+      },
+      "catalog": [
+        {
+          "title": "大数据学习",
+          "doc_id": "xfy5lhrvmqd4d0zr"
+        }
+      ],
+      "realName": "Spark",
+      "relativePath": "/大数据学习/Spark.md",
+      "docPath": "docs/docs/大数据学习"
     }
   ],
   "catalog": [
@@ -768,7 +814,7 @@
       "url": "nqmh1oc56skmphz4",
       "prev_uuid": "X52iPYRX02O8gXT5",
       "sibling_uuid": "EX9yYti9IEO_uPYq",
-      "child_uuid": "SnRcE2-GkxXobebS",
+      "child_uuid": "4SKM5FDUQtE0QyhU",
       "parent_uuid": "",
       "doc_id": 176198065,
       "level": 0,
@@ -778,10 +824,25 @@
     },
     {
       "type": "DOC",
+      "title": "Spark",
+      "uuid": "4SKM5FDUQtE0QyhU",
+      "url": "xfy5lhrvmqd4d0zr",
+      "prev_uuid": "IrpnG32GwUNyMBO4",
+      "sibling_uuid": "SnRcE2-GkxXobebS",
+      "child_uuid": "",
+      "parent_uuid": "IrpnG32GwUNyMBO4",
+      "doc_id": 197768782,
+      "level": 1,
+      "id": 197768782,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "环境搭建",
       "uuid": "SnRcE2-GkxXobebS",
       "url": "atcexoses0n635ni",
-      "prev_uuid": "IrpnG32GwUNyMBO4",
+      "prev_uuid": "4SKM5FDUQtE0QyhU",
       "sibling_uuid": "gl8H6re-at_6_8Ux",
       "child_uuid": "",
       "parent_uuid": "IrpnG32GwUNyMBO4",
@@ -798,7 +859,7 @@
       "url": "utgclhggg6i92dav",
       "prev_uuid": "SnRcE2-GkxXobebS",
       "sibling_uuid": "vybl0kqoMPyu9vl1",
-      "child_uuid": "F3A8tHBSViqb43sD",
+      "child_uuid": "ORkg1AShYIr3pwWy",
       "parent_uuid": "IrpnG32GwUNyMBO4",
       "doc_id": 192572602,
       "level": 1,
@@ -808,10 +869,25 @@
     },
     {
       "type": "DOC",
+      "title": "常见问题",
+      "uuid": "ORkg1AShYIr3pwWy",
+      "url": "uwsmv6a4l1aex84q",
+      "prev_uuid": "gl8H6re-at_6_8Ux",
+      "sibling_uuid": "F3A8tHBSViqb43sD",
+      "child_uuid": "",
+      "parent_uuid": "gl8H6re-at_6_8Ux",
+      "doc_id": 198799752,
+      "level": 2,
+      "id": 198799752,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "连接",
       "uuid": "F3A8tHBSViqb43sD",
       "url": "pbf5b0x2heo4b22e",
-      "prev_uuid": "gl8H6re-at_6_8Ux",
+      "prev_uuid": "ORkg1AShYIr3pwWy",
       "sibling_uuid": "YtLoKldiEjiSwa-H",
       "child_uuid": "",
       "parent_uuid": "gl8H6re-at_6_8Ux",
