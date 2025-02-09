@@ -501,12 +501,13 @@
     {
       "id": 192572844,
       "doc_id": "nambbfbqs64nepbk",
-      "updated": 1730386472000,
+      "updated": 1735803673000,
       "properties": {
         "title": "基础语法",
         "urlname": "nambbfbqs64nepbk",
         "date": "2024-10-31 22:54:17",
-        "updated": "2024-10-31 22:54:32"
+        "updated": "2025-01-02 15:41:13",
+        "description": "Insertinsert overwrite 插入只会覆盖已有的分区，不一定覆盖全表"
       },
       "catalog": [
         {
@@ -525,12 +526,12 @@
     {
       "id": 196250125,
       "doc_id": "atcexoses0n635ni",
-      "updated": 1734053389000,
+      "updated": 1737440295000,
       "properties": {
         "title": "环境搭建",
         "urlname": "atcexoses0n635ni",
         "date": "2024-11-27 11:42:15",
-        "updated": "2024-12-13 09:29:49",
+        "updated": "2025-01-21 14:18:15",
         "description": "hadoop修改全局环境变量hadoop-env.shcore-site.xmlyarn-site.xmlhdfs-site.xmlmapred-site.xml删除namenode、datanode、tmp文件，重新格式化hdfs在hdfs里面创建一个spark的日志路径hive替换hado..."
       },
       "catalog": [
@@ -612,12 +613,12 @@
     {
       "id": 198799752,
       "doc_id": "uwsmv6a4l1aex84q",
-      "updated": 1735108156000,
+      "updated": 1735113976000,
       "properties": {
         "title": "常见问题",
         "urlname": "uwsmv6a4l1aex84q",
         "date": "2024-12-16 11:34:35",
-        "updated": "2024-12-25 14:29:16",
+        "updated": "2024-12-25 16:06:16",
         "description": "hive外表location和分区location不一致创建一个hive外表时，如果表名和s3上的文件名不一样，在创建分区时，要手动指定分区路径。否则，在创建分区或者插入某个新分区的数据时，hive会自动分配s3路径，分区路径会自动指向原表名的s3表名的路径。create external t..."
       },
       "catalog": [
@@ -637,12 +638,12 @@
     {
       "id": 197768782,
       "doc_id": "xfy5lhrvmqd4d0zr",
-      "updated": 1733665895000,
+      "updated": 1737535190000,
       "properties": {
         "title": "Spark",
         "urlname": "xfy5lhrvmqd4d0zr",
         "date": "2024-12-08 16:55:54",
-        "updated": "2024-12-08 21:51:35",
+        "updated": "2025-01-22 16:39:50",
         "description": "文件读取from pyspark.sql import SparkSession  # 初始化SparkSession spark = SparkSession.builder \\ .appName(\"ReadTextFromS3\") \\ .config(\"spark.hadoop.fs.s3..."
       },
       "catalog": [
@@ -654,6 +655,63 @@
       "realName": "Spark",
       "relativePath": "/大数据学习/Spark.md",
       "docPath": "docs/docs/大数据学习"
+    },
+    {
+      "id": 205102412,
+      "doc_id": "za78tukohn6db212",
+      "updated": 1739080451000,
+      "properties": {
+        "title": "最佳实践",
+        "urlname": "za78tukohn6db212",
+        "date": "2025-02-09 13:23:50",
+        "updated": "2025-02-09 13:54:11",
+        "description": "尽量使用分布式架构和容器把Airflow的各个组件分开，尤其是Scheduler和Worker分开，有利于系统的稳定性Scheduler如果拿不到足够资源，可能出现：任务已经完成，但并未被标记为”完成“任务正在执行，但已经和scheduler失联，导致scheduler重新启动了同一个任务，出..."
+      },
+      "catalog": [
+        {
+          "title": "Airflow",
+          "doc_id": "za78tukohn6db212"
+        }
+      ],
+      "realName": "最佳实践",
+      "relativePath": "/Airflow/最佳实践.md",
+      "docPath": "docs/docs/Airflow"
+    },
+    {
+      "id": 205101366,
+      "doc_id": "pccgsd68bocynr5r",
+      "updated": 1739077629000,
+      "properties": {
+        "title": "运维配置",
+        "urlname": "pccgsd68bocynr5r",
+        "date": "2025-02-09 12:58:56",
+        "updated": "2025-02-09 13:07:09",
+        "description": "airflow.cfgparallelism：可并行运行的最大task数量dag_concurrency：一个dag可并行运行的最大task数量，在dag里面可以用concurrency来控制，如果不写，则读取此默认值max_active_runs_per_dag：一个dag可并行运行的最大d..."
+      },
+      "catalog": [
+        {
+          "title": "Airflow",
+          "doc_id": "pccgsd68bocynr5r"
+        }
+      ],
+      "realName": "运维配置",
+      "relativePath": "/Airflow/运维配置.md",
+      "docPath": "docs/docs/Airflow"
+    },
+    {
+      "id": 205101343,
+      "doc_id": "olqnmd66exez6rne",
+      "updated": 1739077634000,
+      "properties": {
+        "title": "Airflow",
+        "urlname": "olqnmd66exez6rne",
+        "date": "2025-02-09 12:58:38",
+        "updated": "2025-02-09 13:07:14"
+      },
+      "catalog": [],
+      "realName": "Airflow",
+      "relativePath": "/Airflow.md",
+      "docPath": "docs/docs"
     }
   ],
   "catalog": [
@@ -663,7 +721,7 @@
       "uuid": "j_88hTvhdLCJKHxq",
       "url": "xhi1xrkb27yll12f",
       "prev_uuid": "",
-      "sibling_uuid": "RxbKPuLvXwix3Cdl",
+      "sibling_uuid": "POMimS74KvjXO0Hm",
       "child_uuid": "f3fvA8dC7WHja-gD",
       "parent_uuid": "",
       "doc_id": 197028599,
@@ -689,10 +747,55 @@
     },
     {
       "type": "DOC",
+      "title": "Airflow",
+      "uuid": "POMimS74KvjXO0Hm",
+      "url": "olqnmd66exez6rne",
+      "prev_uuid": "j_88hTvhdLCJKHxq",
+      "sibling_uuid": "RxbKPuLvXwix3Cdl",
+      "child_uuid": "4eo5S5amdlACFe8X",
+      "parent_uuid": "",
+      "doc_id": 205101343,
+      "level": 0,
+      "id": 205101343,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "最佳实践",
+      "uuid": "4eo5S5amdlACFe8X",
+      "url": "za78tukohn6db212",
+      "prev_uuid": "POMimS74KvjXO0Hm",
+      "sibling_uuid": "KteAY6Suiss7SioA",
+      "child_uuid": "",
+      "parent_uuid": "POMimS74KvjXO0Hm",
+      "doc_id": 205102412,
+      "level": 1,
+      "id": 205102412,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "运维配置",
+      "uuid": "KteAY6Suiss7SioA",
+      "url": "pccgsd68bocynr5r",
+      "prev_uuid": "4eo5S5amdlACFe8X",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "POMimS74KvjXO0Hm",
+      "doc_id": 205101366,
+      "level": 1,
+      "id": 205101366,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "MySQL",
       "uuid": "RxbKPuLvXwix3Cdl",
       "url": "gph9ectq5dfk1nwm",
-      "prev_uuid": "j_88hTvhdLCJKHxq",
+      "prev_uuid": "POMimS74KvjXO0Hm",
       "sibling_uuid": "X52iPYRX02O8gXT5",
       "child_uuid": "S3FE3yIrimlfGzex",
       "parent_uuid": "",
@@ -910,7 +1013,7 @@
       "level": 2,
       "id": 192572844,
       "open_window": 1,
-      "visible": 0
+      "visible": 1
     },
     {
       "type": "DOC",

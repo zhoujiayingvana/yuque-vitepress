@@ -32,3 +32,14 @@ spark.stop()
 
 ```
 
+# 连接Cassandra
+1. 参考《环境搭建》，下载对应驱动
+
+方式一：把驱动加入jar包路径
+
+方式二：在`spark-submit`命令中添加jar包路径
+
+`spark-submit --master local --jars xxx路径  spark_file.py`
+
+--master local指定本地模式，不提交到yarn，提高运行速度
+
